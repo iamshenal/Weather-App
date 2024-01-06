@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: gainsboro; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherform{
+    margin: 20px;
+}
+.cityInput{
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 2px solid rgba(189, 189, 189, 0.143) ;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+}
+button{
+    height: 43px;
+    padding :10px 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: rgba(68, 93, 183, 0.485);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+}
+button:hover{
+    background-color: rgba(53, 71, 139, 0.999);
+}
+.card{
+    background: rgb(70, 207, 197);   
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.cityDisplay , .tempDisplay{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.809);
+    margin-bottom: 25px;
+}
+.humidityDisplay{
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.descDisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem
+}
+.weatherEmoji{
+    font-size: 4rem;
+}
+.errorMsg{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.635);
+}
